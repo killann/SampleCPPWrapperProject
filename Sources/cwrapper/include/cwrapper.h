@@ -3,6 +3,8 @@ extern "C"  {
 #endif
 
 int cwrapperfive();
+    int createNum();
+
 
 #ifdef __cplusplus
 }
