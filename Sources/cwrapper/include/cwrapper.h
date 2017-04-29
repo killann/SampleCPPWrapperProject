@@ -2,7 +2,7 @@
 
 @interface Wrapper : NSObject
 
--(instancetype)initWithNum:(NSInteger)num;
+- (instancetype)initWithNum:(NSInteger)num;
 
 - (NSInteger)getIntFromObject;
 
