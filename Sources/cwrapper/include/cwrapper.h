@@ -1,11 +1,9 @@
-#ifdef __cplusplus
-extern "C"  {
-#endif
+#import <Foundation/Foundation.h>
 
-int cwrapperfive();
-int createNum();
+@interface Wrapper : NSObject
 
+-(instancetype)initWithNum:(NSInteger)num;
 
-#ifdef __cplusplus
-}
-#endif
+- (NSInteger)getIntFromObject;
+
+@end

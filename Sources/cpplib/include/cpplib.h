@@ -1,8 +1,3 @@
-namespace cpplib {
-
-int five();
-
-}
 
 class A {
 public:
