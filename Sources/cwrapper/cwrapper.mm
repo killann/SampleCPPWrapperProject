@@ -1,14 +1,14 @@
 #import "include/cwrapper.h"
 #import "cpplib.h"
 
-@interface Wrapper()
+@interface Wrapper ()
 
 @property (nonatomic, readonly) A* internal;
 @end
 
 @implementation Wrapper
 
-- (instancetype)initWithNum:(NSInteger)num {
+- (instancetype)initWithNum:(NSInteger) num {
     self = [super init];
     if (self != nil) {
         _internal = new A((int)num);

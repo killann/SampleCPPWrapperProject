@@ -1,6 +1,6 @@
-import cwrapper
+import objcwrapper
 
-let object = Wrapper.init(num: 54)
+let object = ObjcWrapper.init(num: 2)
 guard let object = object  else {
     exit(-1)
 }
